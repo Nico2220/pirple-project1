@@ -1,0 +1,249 @@
+:root {
+  --primary-color: #17a2b8;
+  --dark-color: #343a40;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+/* .navbar {
+  width: 100%;
+  height: 100vh;
+  color: red;
+} */
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.show {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 2rem;
+  /* position: fixed; */
+  width: 100%;
+
+  /* top: 0; */
+  border-bottom: 1px solid var(--primary-color);
+  opacity: 0.9;
+  background-color: var(--dark-color);
+}
+
+.logo {
+  color: #fff;
+  font-size: 30px;
+}
+.logout {
+  display: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+}
+a {
+  color: #fff;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+}
+
+.signupError {
+  display: none;
+  width: 100%;
+  background-color: red;
+  color: #fff;
+  padding: 5px 20px;
+}
+
+.container {
+  display: none;
+  flex-direction: column;
+  width: 65%;
+  margin: auto;
+  margin-top: 20px;
+  /* background-color: red; */
+}
+
+.text-primary {
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.lead {
+  font-size: 40px;
+}
+
+.form-group {
+  margin: 20px 0;
+}
+
+.input-item {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.btn {
+  padding: 5px 10px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+.btn-setting {
+  margin: 0;
+  display: none;
+}
+
+.link {
+  color: var(--primary-color);
+}
+
+.landing {
+  display: flex;
+  background-color: #f1f3f6;
+  height: 91.6vh;
+}
+
+.landing-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 250px;
+}
+
+.description {
+  font-size: 50px;
+  color: #333;
+  text-align: center;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.dashboard {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board {
+  width: 50vw;
+  /* height: 70vh; */
+  box-shadow: 2px 2px 50px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 20px 50px;
+}
+
+.board-title {
+  text-align: center;
+}
+
+.addNew {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.addNew-btn {
+  padding: 5px 10px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.todo {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-item {
+  font-size: 20px;
+  margin-bottom: 10px;
+
+  padding-bottom: 10px;
+  cursor: pointer;
+
+  border-bottom: 1px solid gainsboro;
+}
+
+.todo-list-board {
+  display: none;
+  padding: 50px 100px;
+  /* max-height: 400px; */
+}
+
+/* .input-and-add {
+  width: 600px;
+  height: auto;
+  background-color: red;
+} */
+.todo-name {
+  font-size: 50px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+
+  width: 100%;
+}
+
+/* .addnew-item {
+  width: 80px;
+  height: 30px;
+} */
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.todo-input {
+  margin: 10px 20px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+
+.addNew1 {
+  justify-content: flex-start;
+}
